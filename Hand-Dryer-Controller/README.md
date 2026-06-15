@@ -94,11 +94,11 @@ The top-level Simulink model contains:
 - Dashboard lamp indicators (grey = OFF, red = ON, blue = undefined/pre-simulation)
 - Scope block for full simulation output recording
 
-![Top-Level Model](https://i.postimg.cc/rpXtWpy9/hdc-model.png)
+![Top-Level Model](images/hdc-model.png)
 
 The image below shows the model during an active simulation run with `hand_distance = 9 cm` and `temperature = 60°C`, confirming both fan and heater are ON:
 
-![Fan ON Heater ON](https://i.postimg.cc/VNQbMNsW/hdc-model-fan-on-heater-on.png)
+![Fan ON Heater ON](images/hdc-model-fan-on-heater-on.png)
 
 ---
 
@@ -138,7 +138,7 @@ The Stateflow chart is organized into two **parallel concurrent regions**, allow
 - **Fan_State_Logic** — manages fan activation, deactivation, and safety timeout
 - **Heater_State_Logic** — manages heater activation and overtemperature protection
 
-![Stateflow Chart](https://i.postimg.cc/q7VCn7Bb/hdc-state-chart.png)
+![Stateflow Chart](images/hdc-state-chart.png)
 
 ### Fan_State_Logic
 
@@ -208,25 +208,25 @@ Traceability Matrix Export (.pdf / .xlsx)
 
 The document view below shows each requirement alongside its linked Stateflow implementation element:
 
-![Requirements and Links](https://i.postimg.cc/TPV5cXhJ/hdcr-requirements-links.png)
+![Requirements and Links](images/hdcr-requirements-links.png)
 
 ### Stateflow Chart with Requirement Links
 
 Traceability badges are visible on linked transitions in the chart:
 
-![Stateflow Chart with Requirement Links](https://i.postimg.cc/zfZRWfDc/hdc-state-chart-requirement-links.png)
+![Stateflow Chart with Requirement Links](images/hdc-state-chart-requirement-links.png)
 
 ### Consistency Check
 
 All requirements passed the Simulink Requirements consistency check with no missing or broken links:
 
-![Consistency Check](https://i.postimg.cc/3wX0ZHWC/hdcr-consistency-check.png)
+![Consistency Check](images/hdcr-consistency-check.png)
 
 ### Traceability Matrix
 
 The traceability matrix below confirms that every requirement maps to atleast one Stateflow implementation element, achieving 100% requirements coverage:
 
-![Traceability Matrix](https://i.postimg.cc/zfCHk13j/hdcr-traceability-matrix.png)
+![Traceability Matrix](images/hdcr-traceability-matrix.png)
 
 The full traceability matrix is available in the `results/` folder in both PDF and Excel formats.
 
@@ -240,7 +240,7 @@ The model was simulated using a **fixed-step discrete solver with a 0.001-second
 
 The scope output below shows `hand_distance`, `temperature`, `fan_status`, and `heater_status` across a multi-scenario simulation run:
 
-![Simulation Scope Result](https://i.postimg.cc/HLD75LW6/hdc-scope-result.png)
+![Simulation Scope Result](images/hdc-scope-result.png)
 
 ### Verification Summary
 
