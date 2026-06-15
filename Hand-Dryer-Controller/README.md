@@ -115,7 +115,7 @@ The image below shows the model during an active simulation run with `hand_dista
 
 ## Controller Parameters
 
-All parameters are defined as local data within the Stateflow chart. This is a deliberate design decision appropriate for a supervisory control implementation — parameters are internal to the control logic and not intended as externally tunable calibration variables at this stage of model fidelity.
+All parameters are defined as local data within the Stateflow chart. This is a deliberate design decision appropriate for a supervisory control implementation parameters are internal to the control logic and not intended as externally tunable calibration variables at this stage of model fidelity.
 
 | Parameter | Value | Unit | Description |
 |---|---|---|---|
