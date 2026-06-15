@@ -1,4 +1,4 @@
-# MBD-Hand Dryer Controller using Stateflow
+# Requirement-Based Hand Dryer Controller using Stateflow
 
 A requirement-based automatic hand dryer controller implemented using MATLAB Stateflow, with full requirements traceability using Simulink Requirements Toolbox.
 
