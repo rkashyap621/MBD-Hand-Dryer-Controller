@@ -147,7 +147,7 @@ Manages hand detection with debounce confirmation and maximum run-time safety cu
 |---|---|
 | `Fan_Status_OFF` | Fan is OFF. Entry action sets `fan_status = 0` |
 | `Hand_Presence_Check` | Intermediate state — confirms hand presence for `hand_presence_time` seconds |
-| `Fan_Status_ON` | Fan is ON. During action sets `fan_status = 1` |
+| `Fan_Status_ON` | Fan is ON. Entry action sets `fan_status = 1` |
 | `Hand_Removal_Check` | Intermediate state — confirms hand removal for `hand_removal_time` seconds |
 
 Key transitions:
@@ -163,8 +163,8 @@ Manages heater activation based on fan state and temperature, implementing overt
 
 | State | Description |
 |---|---|
-| `Heater_Status_OFF` | Heater is OFF. During action sets `heater_status = 0` |
-| `Heater_Status_ON` | Heater is ON. During action sets `heater_status = 1` |
+| `Heater_Status_OFF` | Heater is OFF. Entry action sets `heater_status = 0` |
+| `Heater_Status_ON` | Heater is ON. Entry action sets `heater_status = 1` |
 
 Key transitions:
 - `Heater_Status_OFF → Heater_Status_ON` when `fan_status == 1 AND temperature < heater_on_temp`
