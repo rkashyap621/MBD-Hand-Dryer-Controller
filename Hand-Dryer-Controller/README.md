@@ -14,13 +14,13 @@ This project implements a **Stateflow-based supervisory controller** for an auto
 
 The controller manages two output signals:
 
-- `fan_status` — controls the fan
-- `heater_status` — controls the heater
+- `fan_status`: controls the fan
+- `heater_status`: controls the heater
 
 based on two input signals:
 
-- `hand_distance` — proximity sensor reading in cm
-- `temperature` — dryer temperature feedback in °C
+- `hand_distance`: proximity sensor reading in cm
+- `temperature`: dryer temperature feedback in °C
 
 The project demonstrates a **requirement-driven Model-Based Design (MBD) workflow** covering:
 
@@ -135,8 +135,8 @@ All parameters are defined as local data within the Stateflow chart. This is a d
 
 The Stateflow chart is organized into two **parallel concurrent regions**, allowing fan and heater logic to execute independently and simultaneously:
 
-- **Fan_State_Logic** — manages fan activation, deactivation, and safety timeout
-- **Heater_State_Logic** — manages heater activation and overtemperature protection
+- **Fan_State_Logic**: manages fan activation, deactivation, and safety timeout
+- **Heater_State_Logic**: manages heater activation and overtemperature protection
 
 ![Stateflow Chart](images/hdc_state_chart.png)
 
