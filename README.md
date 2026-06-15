@@ -137,7 +137,7 @@ The Stateflow chart is organized into two **parallel concurrent regions**, allow
 - **Fan_State_Logic** — manages fan activation, deactivation, and safety timeout
 - **Heater_State_Logic** — manages heater activation and overtemperature protection
 
-![Stateflow Chart](images/HDC_State_Chart.png)
+![Stateflow Chart](https://i.postimg.cc/q7VCn7Bb/hdc-state-chart.png)
 
 ### Fan_State_Logic
 
