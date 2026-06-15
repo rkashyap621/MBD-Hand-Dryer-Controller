@@ -233,7 +233,7 @@ The full traceability matrix is available in the `results/` folder in both PDF a
 
 ## Simulation and Verification
 
-The model was simulated using a **fixed-step discrete solver with a 1-second step size**. Input signals were controlled interactively using dashboard sliders to exercise each requirement scenario.
+The model was simulated using a **fixed-step discrete solver with a 0.001-second step size**. Input signals were controlled interactively using dashboard sliders to exercise each requirement scenario.
 
 ### Simulation Scope Result
 
