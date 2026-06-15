@@ -4,7 +4,7 @@ A requirement-based automatic hand dryer controller implemented using MATLAB Sta
 
 ---
 
-![images/HDC_Stateflow_Image_Icon.png](https://i.postimg.cc/W4LJr4pf/HDC-Statefow-Image-Icon.webp))
+![Hand Dryer Controller](https://i.postimg.cc/W4LJr4pf/HDC-Statefow-Image-Icon.webp)
 
 ---
 
