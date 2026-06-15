@@ -93,11 +93,11 @@ The top-level Simulink model contains:
 - Dashboard lamp indicators (grey = OFF, red = ON, blue = undefined/pre-simulation)
 - Scope block for full simulation output recording
 
-![Top-Level Model](images/HDC_Model.png)
+![Top-Level Model](https://i.postimg.cc/rpXtWpy9/hdc-model.png)
 
 The image below shows the model during an active simulation run with `hand_distance = 9 cm` and `temperature = 60°C`, confirming both fan and heater are ON:
 
-![Fan ON Heater ON](images/HDC_Model_F_ON_H_ON.png)
+![Fan ON Heater ON](https://i.postimg.cc/VNQbMNsW/hdc-model-fan-on-heater-on.png)
 
 ---
 
