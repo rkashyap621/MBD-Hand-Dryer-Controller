@@ -55,18 +55,19 @@ Hand-Dryer-Controller/
 │   └── Screenshots and visual assets used in this README
 │
 ├── model/
-│   └── Hand_Dryer_Controller.slx
+│   └── Hand_Dryer_Controller_Model.slx
 │
 ├── requirements/
 │   ├── HDCR_Requirements.xlsx
 │   ├── HDCR_Requirements.slreqx
-│   └── HDCR_Requirements_Links.slmx
+│   └── Hand_Dryer_Controller_Model~mdl.slmx
 │
 ├── results/
 │   ├── Simulation scope screenshots
-│   ├── HDCR_Traceability_Matrix.pdf
-│   └── HDCR_Traceability_Matrix.xlsx
-│
+│   ├── HDCR_Requirements_Matrix_SnapShot.pdf
+│   ├── HDCR_Requirements_Matrix_SnapShot.xlsx
+│   └── SLReqMatrixSnapShot.html
+|     
 └── README.md
 ```
 
@@ -223,7 +224,7 @@ All requirements passed the Simulink Requirements consistency check with no miss
 
 ### Traceability Matrix
 
-The traceability matrix below confirms that every requirement maps to exactly one Stateflow implementation element, achieving 100% requirements coverage:
+The traceability matrix below confirms that every requirement maps to atleast one Stateflow implementation element, achieving 100% requirements coverage:
 
 ![Traceability Matrix](https://i.postimg.cc/zfCHk13j/hdcr-traceability-matrix.png)
 
