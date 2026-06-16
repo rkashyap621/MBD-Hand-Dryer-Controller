@@ -233,8 +233,7 @@ The full traceability matrix is available in the `results/` folder in both PDF a
 ---
 
 ## Simulation and Verification
-
-The model was simulated using a **fixed-step discrete solver with a 0.001-second step size. A small step size was selected to clearly capture the interactive dashboard-slider input variations and observe the corresponding fan/heater status transitions in the scope output.**. Input signals were controlled interactively using dashboard sliders to exercise each requirement scenario.
+The model was simulated using a **fixed-step discrete solver with a 0.001-second step size.** This small step size was selected to clearly capture interactive dashboard-slider input variations and observe the corresponding fan/heater status transitions in the scope output. The input signals were controlled interactively using dashboard sliders to exercise each requirement scenario.
 
 ### Simulation Scope Result
 
