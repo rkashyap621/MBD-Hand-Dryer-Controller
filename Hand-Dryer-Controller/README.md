@@ -254,7 +254,7 @@ The scope output below shows `hand_distance`, `temperature`, `fan_status`, and `
 
 ---
 
-## Key Debugging Note — Entry Action vs During Action
+## Key Debugging Note: Entry Action vs During Action
 
 During verification of HDCR-REQ-004 (maximum run-time timeout), the fan OFF transition was confirmed firing correctly in the Stateflow chart at t = 60s, but `fan_status` was not reflecting the change in the scope output.
 
