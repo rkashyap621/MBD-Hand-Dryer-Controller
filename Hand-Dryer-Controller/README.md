@@ -258,7 +258,7 @@ The scope output below shows `hand_distance`, `temperature`, `fan_status`, and `
 
 During verification of HDCR-REQ-004 (maximum run-time timeout), the fan OFF transition was confirmed firing correctly in the Stateflow chart at t = 60s, but `fan_status` was not reflecting the change in the scope output.
 
-**Root cause:** The `Fan_Status_OFF` state was using a `during` action (`du: fan_status = boolean(0)`). A during action does not execute on the same time step as state entry — it executes on the *following* step. With a 1-second fixed step size, this caused a full 1-second output lag on the timeout transition.
+**Root cause:** The `Fan_Status_OFF` state was using a `during` action (`du: fan_status = boolean(0)`). A during action does not execute on the same time step as state entry, it executes on the *following* step. With a 1-second fixed step size, this caused a full 1-second output lag on the timeout transition.
 
 **Fix:** The state action was changed from `du` (during) to `en` (entry):
 
